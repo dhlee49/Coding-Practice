@@ -2,6 +2,7 @@ public class wigglesort{
   public static void main(String[] args)
     {
     int[] in = new int[]{1,2,3,4,5,6,7,8,9};
+    System.out.println("works");
     for(int i=1;i< in.length;i++) {
         if(i %2  ==0) {
           wigglelow(in,i);
@@ -11,6 +12,7 @@ public class wigglesort{
       for(int i =0;i<in.length;i++){
         System.out.print(in[i] +"   ");
       }
+      System.out.println();
     }
     public static void wigglelow(int[] n, int i) {
       int temp;
